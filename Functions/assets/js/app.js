@@ -45,6 +45,7 @@ function hoisting() {
     // var expression; wordt gehoist
     // expression = 'hello' niet
     // de line wordt als het ware opgesplitst in 2 delen
+    // enkel var laat zich hoisten, een let niet
 }
 
 hoisting()
